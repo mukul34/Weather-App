@@ -19,6 +19,11 @@ body {
 
 .App-warm {
   background-image: url('./Assets/warm.jpg');
+  
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+
 }
 .App-norm {
   background-image: url('./Assets/normal.jpg');
