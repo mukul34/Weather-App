@@ -60,10 +60,8 @@ function App() {
         typeof weather.main != "undefined"
           ? weather.main.temp > 30
             ? "App-warm"
-            : weather.main.temp<15
-            ? "App"
-            : "App-norm"
           : "App"
+          :"App"
       }
     >
       <main>

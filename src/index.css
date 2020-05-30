@@ -11,27 +11,21 @@ body {
 }
 
 .App {
-  background-image: url('./Assets/cold.jpg');
+  background-image: url('./Assets/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
 }
 
 .App-warm {
-  background-image: url('./Assets/warm.jpg');
+  background-image: url('./Assets/warm-bg.jpg');
   
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
 
 }
-.App-norm {
-  background-image: url('./Assets/normal.jpg');
-  background-size: cover;
-  background-position: bottom;
-  transition: 0.4 ease;
 
-}
 
 
 main {
@@ -42,7 +36,7 @@ main {
 
 .search-box {
   width: 100%;
-  margin: 0 0 75px;
+  margin: 30px 0 75px;
 }
 
 .search-box .input-box {
